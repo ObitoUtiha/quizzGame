@@ -1,0 +1,154 @@
+{
+    "JsQuestions":{
+        "img": "../img/java1.png",
+        "questions": [
+            {
+                "question": "What does 'JS' stand for in JavaScript?",
+                "answers": [
+                    "JavaScript",
+                    "JustScript",
+                    "JavaSource", 
+                    "JointSyntax"
+                ],
+                "correct_answer": 1,
+                "category_answer": 1
+            },
+            {
+                "question": "What type of language is JavaScript?",
+                "answers": [
+                    "Compiled",
+                    "Interpreted",
+                    "Assembly", 
+                    "Machine"
+                ],
+                "correct_answer": 2,
+                "category_answer": 1
+            },
+            {
+                "question": "Which of the following are valid data types in JavaScript?",
+                "answers": [
+                    "Number",
+                    "Boolean",
+                    "Character", 
+                    "String"
+                ],
+                "correct_answer": [1, 2, 4],
+                "category_answer": 2
+            },
+            {
+                "question": "What are the ways to declare a function in JavaScript?",
+                "answers": [
+                    "function myFunction(){}",
+                    "var myFunction = function(){}",
+                    "def myFunction(){}", 
+                    "procedure myFunction(){}"
+                ],
+                "correct_answer": [1, 2],
+                "category_answer": 2
+            }
+        ],
+        "question-number":"4"
+    },
+    "CPlusPlusQuestions":{
+        "img": "../img/c++1.png",
+        "questions": [
+            {
+                "question:": "Полное наименование языка JS",
+                "answers": [
+                    "Java",
+                    "JavaScript",
+                    "Joly Sell", 
+                    "Не знаю"
+                ],
+                "correct_answer": 1,
+                "category_answer": 1
+            },
+            {
+                "question:": "Полное наименование языка JS",
+                "answers": [
+                    "Java",
+                    "JavaScript",
+                    "Joly Sell", 
+                    "Не знаю"
+                ],
+                "correct_answer": 1,
+                "category_answer": 1
+            },
+            {
+                "question:": "Полное наименование языка JS",
+                "answers": [
+                    "Java",
+                    "JavaScript",
+                    "Joly Sell", 
+                    "Не знаю"
+                ],
+                "correct_answer": 1,
+                "category_answer": 1
+            },
+            {
+                "question:": "Полное наименование языка JS",
+                "answers": [
+                    "Java",
+                    "JavaScript",
+                    "Joly Sell", 
+                    "Не знаю"
+                ],
+                "correct_answer": 1,
+                "category_answer": 1
+            }
+        ],
+        "question-number":"4"
+    },
+    "PythonQuestions":{
+        "img": "../img/python2.png",
+        "questions": [
+            {
+                "question:": "Полное наименование языка JS",
+                "answers": [
+                    "Java",
+                    "JavaScript",
+                    "Joly Sell", 
+                    "Не знаю"
+                ],
+                "correct_answer": 1,
+                "category_answer": 1
+            },
+            {
+                "question:": "Полное наименование языка JS",
+                "answers": [
+                    "Java",
+                    "JavaScript",
+                    "Joly Sell", 
+                    "Не знаю"
+                ],
+                "correct_answer": 1,
+                "category_answer": 1
+            },
+            {
+                "question:": "Полное наименование языка JS",
+                "answers": [
+                    "Java",
+                    "JavaScript",
+                    "Joly Sell", 
+                    "Не знаю"
+                ],
+                "correct_answer": 1,
+                "category_answer": 1
+            },
+            {
+                "question:": "Полное наименование языка JS",
+                "answers": [
+                    "Java",
+                    "JavaScript",
+                    "Joly Sell", 
+                    "Не знаю"
+                ],
+                "correct_answer": 1,
+                "category_answer": 1
+            }
+        ],
+        "question-number":"4"
+    }
+
+
+}
