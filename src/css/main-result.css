@@ -8,6 +8,7 @@
 
 html, body {margin: 0; height: 100%; overflow: hidden}
 
+
 .main{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -19,7 +20,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
     background-color: #A76AE4;
-    background-image: url('../img/svg/main-menu.svg');
+    background-image: url('../img/svg/main-question.svg');
     background-size:cover;
 }
 
@@ -31,7 +32,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     height: 248px;
     border-radius: 262px;
     background: rgba(199, 168, 252, 0.36);
-    margin-top: 60px; margin-left: 60px;
+    margin-top: 30px; margin-left: -35px;
 }
 
 .ellipse-2{
@@ -54,7 +55,6 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     border-radius: 152px;
 }
 
-
 .second-block{
     height: 55vh;
     background-color: #F4F2F6;
@@ -62,33 +62,63 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 
 .menubtn{
-    margin-top: 26px;
-    width: 36vh;
-    height: 17vh;
-    border-radius: 14px;
-    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 27px;
+    width: 37vh;
+    height: 7vh;
+    border-radius: 18px; 
     border: 0;
+}
+
+.menubtn:focus{
+    width: 38vh;
+    height: 8vh;
     box-shadow: 0px 2px 13px 4px rgba(157, 87, 227, 0.25);
 }
+
 .btn-block{
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .btn-block p{
-    font-size: 35px;
+    font-size: 17px;
     color: #5B1CAE;
     margin-left: 22px;
 }
-.main-btn-block{
+
+.main-questions-block{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 18vh;
+    bottom: 24vh;
 }
 
-@media(max-height:800px){
-    html, body {margin: 0; height: 100%; overflow:visible}
+.question-block{
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 2px 13px 4px rgba(157, 87, 227, 0.25);
+    width: 316px;
+    height: 138px;
+}
+
+.menubtn::before{
+    content: '';
+    display: flex;
+    position: absolute;
+    width: 37vh;
+    height: 7vh;
+    border-radius: 14px;
+    background: #FFF;
+    border: 0;
+    box-shadow: 0px 2px 13px 4px rgba(157, 87, 227, 0.25);
 }

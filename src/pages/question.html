@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main-question.css">
+    <title>Question</title>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="first-block">
+                <div class="ellipse-1">
+                    <div class="ellipse-2">
+                        <div class="ellipse-3">
+                            <a href="/src/index.html"><img id="main-picture" src="../img/quiz1.png" alt="quizz logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-block">
+                <div class="main-questions-block">
+                    <div class="question-block">
+                        <p>Question<span id="number-answers">(one answer)</span></p>
+                        <span id="main-question-text">Your question...</span>
+                    </div>
+                    <button id="btn-1" class="menubtn" onclick="toggleClass(this)">
+                        <div class="btn-block">
+                            <p class="question-text">A.</p>
+                        </div>
+                        
+                    </button>
+                    <button id="btn-2" class="menubtn" onclick="toggleClass(this)">
+                        <div class="btn-block">
+                            <p class="question-text">B.</p>
+                        </div>
+                    </button>
+                    <button id="btn-3" class="menubtn" onclick="toggleClass(this)">
+                        <div class="btn-block">
+                            <p class="question-text">C.</p>
+                        </div>
+                    </button>
+                    <button id="btn-4" class="menubtn" onclick="toggleClass(this)">
+                        <div class="btn-block">
+                            <p class="question-text">D.</p>
+                        </div>
+                    </button>
+                    <button class="next-btn" onclick="getToggleElement(this)">
+                        <p>Next</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../js/question-script.js"></script>
+</body>
+</html>
