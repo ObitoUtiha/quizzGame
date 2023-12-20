@@ -77,12 +77,14 @@ body{
 }
 
 h1{
+    font-size: 30px;
     color: #5B1CAE;
     text-align: center;
 }
 
 .text-holder p{
-    margin-top: 30px;
+    font-size: 22px;
+    margin-top: 15px;
     text-align: center;
 }
 
