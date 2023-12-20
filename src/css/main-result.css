@@ -130,7 +130,7 @@ h1{
         background-color: #A76AE4;
 
     }
-    .holder{
+    .holder, .ellipse-1, .img-holder{
         position: relative;
         z-index: 1;
     }
