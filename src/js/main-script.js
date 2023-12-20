@@ -3,7 +3,7 @@
 // {
 let data;  
     
-fetch('/src/data/questions.json')
+fetch('./data/questions.json')
     .then(response => response.json())
     .then(parsedData => {
          data = parsedData;
