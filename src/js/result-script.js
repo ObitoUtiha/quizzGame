@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var img = document.getElementById('result-img');
     if(rightProcent<=25){
-        img.src = '../img/completed25.png'
+        img.src = "../img/completed25.png";
     }
     else if(rightProcent>=80){
-        img.src = '../img/completed100.png'
+        img.src = "../img/completed100.png";
     }
     else{
-        img.src = '../img/completed50.png'
+        img.src = "../img/completed50.png";
     }
     console.log('Параметр 1:', param2);
     console.log('Параметр 2:', param3);
