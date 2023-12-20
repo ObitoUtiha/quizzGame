@@ -135,7 +135,7 @@ function getToggleElement(element){
                 if(calcQuestions>=catchedData.question_number){
                     localStorage.setItem('param2', rightAnswers);
                     localStorage.setItem('param3', catchedData.question_number);
-                    window.location.href = "/src/pages/result.html";
+                    window.location.href = "./result.html";
                 }
                 culcCurQuestion(calcQuestions);
                 overlay.style.display = 'none';
