@@ -191,3 +191,10 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 @media(max-height:800px){
     html, body {margin: 0; height: 100%; overflow:visible}
 }
+
+@media (min-width: 1024px) {
+    body {
+      width: 550px; /* Снимает фиксированную ширину */
+      margin: 0 auto;
+    }
+}

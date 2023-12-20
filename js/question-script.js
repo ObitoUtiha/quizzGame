@@ -17,7 +17,7 @@ function culcCurQuestion(number){
     var QuestionList = document.querySelectorAll('.question-text');
     for(let i = 0; i<QuestionList.length; i++)
     {
-        QuestionList[i].textContent = QuestionList[i].textContent + " " + catchedData.questions[number].answers[i];
+        QuestionList[i].textContent = String.fromCharCode(64 + (i+1)) +". " + catchedData.questions[number].answers[i];
     }
 }
 
