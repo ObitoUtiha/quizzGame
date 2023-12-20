@@ -109,7 +109,7 @@ h1{
         left: 50%;
         width: 550px;
         height: 100%;
-        margin-left: -275px; /* Половина ширины контейнера */
+        margin-left: -275px; 
         background-size: auto;
         background-color: #A76AE4;
       }
@@ -121,7 +121,7 @@ h1{
         left: 50%;
         width: 550px;
         height: 100%;
-        margin-left: -275px; /* Половина ширины контейнера */
+        margin-left: -275px; 
         background-size: auto;
         background-image: url('../img/svg/main-result.svg');
         background-size:cover;
