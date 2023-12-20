@@ -88,6 +88,50 @@ h1{
     text-align: center;
 }
 
+
+
 @media(max-height:800px){
-    html, body {margin: 0; height: 100%; overflow:visible}
+    html, body {margin: 0; height: 100%; overflow-y:visible}
+}
+
+@media (min-width: 1024px) {
+    body {
+      width: 550px; 
+      margin: 0 auto;
+      background-image:none;
+      background: none;
+    }
+    body::before {
+        z-index: -1;
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 50%;
+        width: 550px;
+        height: 100%;
+        margin-left: -275px; /* Половина ширины контейнера */
+        background-size: auto;
+        background-color: #A76AE4;
+      }
+    body::after{
+        z-index: 0;
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 50%;
+        width: 550px;
+        height: 100%;
+        margin-left: -275px; /* Половина ширины контейнера */
+        background-size: auto;
+        background-image: url('../img/svg/main-result.svg');
+        background-size:cover;
+    }
+    .main{
+        background-color: #A76AE4;
+
+    }
+    .holder{
+        position: relative;
+        z-index: 1;
+    }
 }

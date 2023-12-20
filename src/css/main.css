@@ -69,7 +69,17 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     background: #FFF;
     border: 0;
     box-shadow: 0px 2px 13px 4px rgba(157, 87, 227, 0.25);
+    -webkit-transition: 1s ease; /* Safari and Chrome */
+    -moz-transition: 1s ease; /* Firefox 4 */
+    -o-transition: 1s ease; /* Opera */
 }
+
+button:active,
+button:focus,
+button:hover{
+    transform: scale(0.9);
+}
+
 .btn-block{
     display: flex;
     justify-content: center;
@@ -91,4 +101,11 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 
 @media(max-height:800px){
     html, body {margin: 0; height: 100%; overflow:visible}
+}
+
+@media (min-width: 1024px) {
+    body {
+      width: 550px; /* Снимает фиксированную ширину */
+      margin: 0 auto;
+    }
 }

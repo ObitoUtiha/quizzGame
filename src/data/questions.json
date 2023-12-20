@@ -53,7 +53,7 @@
         "img": "../img/c++1.png",
         "questions": [
             {
-                "question:": "What are key features of C++?",
+                "question": "What are key features of C++?",
                 "answers": [
                     "Strictly interpreted language",
                     "Object-oriented programming",
@@ -64,7 +64,7 @@
                 "category_answer": 2
             },
             {
-                "question:": "Which of the following are C++ data types?",
+                "question": "Which of the following are C++ data types?",
                 "answers": [
                     "Double",
                     "Character",
@@ -75,7 +75,7 @@
                 "category_answer": 2
             },
             {
-                "question:": "What is the purpose of a destructor in C++?",
+                "question": "What is the purpose of a destructor in C++?",
                 "answers": [
                     "Initialization",
                     "Memory allocation",
@@ -86,7 +86,7 @@
                 "category_answer": 1
             },
             {
-                "question:": "How is a comment indicated in C++ code?",
+                "question": "How is a comment indicated in C++ code?",
                 "answers": [
                     "// This is a comment",
                     "/* This is a comment */",
@@ -103,7 +103,7 @@
         "img": "../img/python2.png",
         "questions": [
             {
-                "question:": "What is Python known for?",
+                "question": "What is Python known for?",
                 "answers": [
                     "General-purpose language",
                     "High-performance computing",
@@ -114,7 +114,7 @@
                 "category_answer": 2
             },
             {
-                "question:": "Which of the following are Python data types?",
+                "question": "Which of the following are Python data types?",
                 "answers": [
                     "Integer",
                     "Float",
@@ -125,7 +125,7 @@
                 "category_answer": 2
             },
             {
-                "question:": "What does the term 'PEP' stand for in Python?",
+                "question": "What does the term 'PEP' stand for in Python?",
                 "answers": [
                     "Python Enhancement Proposal",
                     "Programming Efficiency Protocol",
@@ -136,7 +136,7 @@
                 "category_answer": 1
             },
             {
-                "question:": "How is a comment indicated in Python code?",
+                "question": "How is a comment indicated in Python code?",
                 "answers": [
                     "// This is a comment",
                     "/* This is a comment */",
