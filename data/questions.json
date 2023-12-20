@@ -3,151 +3,151 @@
         "img": "../img/java1.png",
         "questions": [
             {
-                "question": "What does 'JS' stand for in JavaScript?",
+                "question": "What does the 'final' keyword signify in Java?",
                 "answers": [
-                    "JavaScript",
-                    "JustScript",
-                    "JavaSource", 
-                    "JointSyntax"
+                    "Variable can be reassigned",
+                    "Method can be overridden",
+                    "Class cannot be extended", 
+                    "Access modifier for public members"
+                ],
+                "correct_answer": 3,
+                "category_answer": 1
+            },
+            {
+                "question": "How is a comment denoted in Java code?",
+                "answers": [
+                    "// This is a comment",
+                    "/* This is a comment */",
+                    "# This is a comment", 
+                    "-- This is a comment"
                 ],
                 "correct_answer": 1,
                 "category_answer": 1
             },
             {
-                "question": "What type of language is JavaScript?",
+                "question": "Which are valid Java data types?",
                 "answers": [
-                    "Compiled",
-                    "Interpreted",
-                    "Assembly", 
-                    "Machine"
+                    "Integer",
+                    "Boolean",
+                    "Complex", 
+                    "Character"
                 ],
-                "correct_answer": 2,
-                "category_answer": 1
+                "correct_answer": [1, 2, 3, 4],
+                "category_answer": 2
             },
             {
-                "question": "Which of the following are valid data types in JavaScript?",
+                "question": "Java Exception Handling features include:",
                 "answers": [
-                    "Number",
-                    "Boolean",
-                    "Character", 
-                    "String"
+                    "try block",
+                    "catch block",
+                    "final block", 
+                    "throw keyword"
                 ],
                 "correct_answer": [1, 2, 4],
                 "category_answer": 2
-            },
-            {
-                "question": "What are the ways to declare a function in JavaScript?",
-                "answers": [
-                    "function myFunction(){}",
-                    "var myFunction = function(){}",
-                    "def myFunction(){}", 
-                    "procedure myFunction(){}"
-                ],
-                "correct_answer": [1, 2],
-                "category_answer": 2
             }
         ],
-        "question-number":"4"
+        "question_number":"4"
     },
     "CPlusPlusQuestions":{
         "img": "../img/c++1.png",
         "questions": [
             {
-                "question:": "Полное наименование языка JS",
+                "question:": "What are key features of C++?",
                 "answers": [
-                    "Java",
-                    "JavaScript",
-                    "Joly Sell", 
-                    "Не знаю"
+                    "Strictly interpreted language",
+                    "Object-oriented programming",
+                    "Designed for web development", 
+                    "Supports low-level programming"
                 ],
-                "correct_answer": 1,
+                "correct_answer": [1, 4],
+                "category_answer": 2
+            },
+            {
+                "question:": "Which of the following are C++ data types?",
+                "answers": [
+                    "Double",
+                    "Character",
+                    "Boolean", 
+                    "String"
+                ],
+                "correct_answer": [1,2,3,4],
+                "category_answer": 2
+            },
+            {
+                "question:": "What is the purpose of a destructor in C++?",
+                "answers": [
+                    "Initialization",
+                    "Memory allocation",
+                    "Cleanup on scope exit ", 
+                    "Class structure definition"
+                ],
+                "correct_answer": 3,
                 "category_answer": 1
             },
             {
-                "question:": "Полное наименование языка JS",
+                "question:": "How is a comment indicated in C++ code?",
                 "answers": [
-                    "Java",
-                    "JavaScript",
-                    "Joly Sell", 
-                    "Не знаю"
-                ],
-                "correct_answer": 1,
-                "category_answer": 1
-            },
-            {
-                "question:": "Полное наименование языка JS",
-                "answers": [
-                    "Java",
-                    "JavaScript",
-                    "Joly Sell", 
-                    "Не знаю"
-                ],
-                "correct_answer": 1,
-                "category_answer": 1
-            },
-            {
-                "question:": "Полное наименование языка JS",
-                "answers": [
-                    "Java",
-                    "JavaScript",
-                    "Joly Sell", 
-                    "Не знаю"
+                    "// This is a comment",
+                    "/* This is a comment */",
+                    "# This is a comment", 
+                    "-- This is a comment"
                 ],
                 "correct_answer": 1,
                 "category_answer": 1
             }
         ],
-        "question-number":"4"
+        "question_number":"4"
     },
     "PythonQuestions":{
         "img": "../img/python2.png",
         "questions": [
             {
-                "question:": "Полное наименование языка JS",
+                "question:": "What is Python known for?",
                 "answers": [
-                    "Java",
-                    "JavaScript",
-                    "Joly Sell", 
-                    "Не знаю"
+                    "General-purpose language",
+                    "High-performance computing",
+                    "Machine learning and data science", 
+                    "Scripting language"
+                ],
+                "correct_answer": [1, 3, 4],
+                "category_answer": 2
+            },
+            {
+                "question:": "Which of the following are Python data types?",
+                "answers": [
+                    "Integer",
+                    "Float",
+                    "Character", 
+                    "Both a and b"
+                ],
+                "correct_answer": [1, 2, 4],
+                "category_answer": 2
+            },
+            {
+                "question:": "What does the term 'PEP' stand for in Python?",
+                "answers": [
+                    "Python Enhancement Proposal",
+                    "Programming Efficiency Protocol",
+                    "Python Execution Plan", 
+                    "PyPI Extension Pack"
                 ],
                 "correct_answer": 1,
                 "category_answer": 1
             },
             {
-                "question:": "Полное наименование языка JS",
+                "question:": "How is a comment indicated in Python code?",
                 "answers": [
-                    "Java",
-                    "JavaScript",
-                    "Joly Sell", 
-                    "Не знаю"
+                    "// This is a comment",
+                    "/* This is a comment */",
+                    "# This is a comment", 
+                    "-- This is a comment"
                 ],
-                "correct_answer": 1,
-                "category_answer": 1
-            },
-            {
-                "question:": "Полное наименование языка JS",
-                "answers": [
-                    "Java",
-                    "JavaScript",
-                    "Joly Sell", 
-                    "Не знаю"
-                ],
-                "correct_answer": 1,
-                "category_answer": 1
-            },
-            {
-                "question:": "Полное наименование языка JS",
-                "answers": [
-                    "Java",
-                    "JavaScript",
-                    "Joly Sell", 
-                    "Не знаю"
-                ],
-                "correct_answer": 1,
+                "correct_answer": 3,
                 "category_answer": 1
             }
         ],
-        "question-number":"4"
+        "question_number":"4"
     }
 
 

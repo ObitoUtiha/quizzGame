@@ -9,19 +9,15 @@
 html, body {margin: 0; height: 100%; overflow: hidden}
 
 
-.main{
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    background: #F4F2F6;
+body{
+    background-color: #A76AE4;
+    background-image: url('../img/svg/main-result.svg');
+    background-size:cover;
 }
 
-.first-block{
+.main{
     width: 100%;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
-    background-color: #A76AE4;
-    background-image: url('../img/svg/main-question.svg');
-    background-size:cover;
+    height: 100%;
 }
 
 .ellipse-1{ 
@@ -32,7 +28,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     height: 248px;
     border-radius: 262px;
     background: rgba(199, 168, 252, 0.36);
-    margin-top: 30px; margin-left: -35px;
+    margin-top: 20px; margin-left: -37px;
 }
 
 .ellipse-2{
@@ -55,70 +51,41 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     border-radius: 152px;
 }
 
-.second-block{
-    height: 55vh;
-    background-color: #F4F2F6;
+.img-holder{
+    display: flex;
+    height: 100%;
     width: 100%;
-}
-
-.menubtn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    margin-top: 27px;
-    width: 37vh;
-    height: 7vh;
-    border-radius: 18px; 
-    border: 0;
-}
-
-.menubtn:focus{
-    width: 38vh;
-    height: 8vh;
-    box-shadow: 0px 2px 13px 4px rgba(157, 87, 227, 0.25);
-}
-
-.btn-block{
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn-block p{
-    font-size: 17px;
-    color: #5B1CAE;
-    margin-left: 22px;
-}
-
-.main-questions-block{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 24vh;
+    top: 8vh;
 }
 
-.question-block{
-    border-radius: 14px;
-    background: #FFF;
-    box-shadow: 0px 2px 13px 4px rgba(157, 87, 227, 0.25);
+.holder{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-holder{
     width: 316px;
     height: 138px;
-}
-
-.menubtn::before{
-    content: '';
-    display: flex;
-    position: absolute;
-    width: 37vh;
-    height: 7vh;
     border-radius: 14px;
     background: #FFF;
-    border: 0;
     box-shadow: 0px 2px 13px 4px rgba(157, 87, 227, 0.25);
+}
+
+h1{
+    color: #5B1CAE;
+    text-align: center;
+}
+
+.text-holder p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media(max-height:800px){
+    html, body {margin: 0; height: 100%; overflow:visible}
 }
